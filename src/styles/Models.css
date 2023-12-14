@@ -1,0 +1,19 @@
+/* styles/Models.css */
+.models-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.models-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.car-item {
+  text-align: center;
+}
+
+.car-item img {
+  max-width: 100%;
+}

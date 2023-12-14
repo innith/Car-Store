@@ -1,0 +1,44 @@
+/* styles/Home.css */
+.home-container {
+  text-align: center;
+ 
+}
+
+.image-container {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  -webkit-user-drag: none;
+  z-index: 10;
+}
+
+.shape-svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0.5;
+  transform: translate(-50%, -50%);
+  z-index: 15; /* Add a z-index value between the hero image and text overlay */
+  pointer-events: none; /* Ensures the SVG doesn't interfere with click events */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 20;
+}
+
+.text-overlay h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.text-overlay p {
+  font-size: 18px;
+}

@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../NithinReddy-ReactJS-Assignment3"
+		},
+		{
+			"path": "../../../../../../Downloads/React ex.5 - Props/community5"
+		},
+		{
+			"path": "../../../NithinReddy-ReactJS-Assignment4"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "React ex 2"
+	}
+}

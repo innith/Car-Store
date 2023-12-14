@@ -1,0 +1,61 @@
+/* styles/About.css */
+ 
+.about-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.features-section {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.features-section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.features-section ul {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+.company-points {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.company-points h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Additional styles for social media icons in the footer */
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer-content a {
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.footer-content a:hover {
+  color: #007bff;
+}
