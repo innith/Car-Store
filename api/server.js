@@ -5,8 +5,17 @@ const { Resend } = require('resend');
 require('dotenv').config();
 
 const app = express();
-app.use(cors()); // Allows your React frontend to talk to this server
-app.use(express.json());
+// api/server.js
+
+// Replace the old app.use(cors()) with this:
+app.use(cors({
+  origin: [
+    'https://car-store-4asw.vercel.app', // Your live Vercel frontend
+    'http://localhost:3000'              // So you can still test locally!
+  ],
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+})); app.use(express.json());
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
