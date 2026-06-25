@@ -1,7 +1,6 @@
 // components/Models.js
 import React from 'react';
 import '../styles/Models.css'; // Import the CSS file
-import car1 from '../images/car1.jpg';
 
 const carsData = [
   {
